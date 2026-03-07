@@ -12,10 +12,11 @@ document.getElementById("login-btn").addEventListener("click", function(){
     if(contactNumber == "01327962192" && pin == "1236"){
         alert("Login Success");
 
-        window.location.assign("/home.html");
+        window.location.assign("/dashboard.html");
     }
     else{
         alert("Login Failed");
         return;
     }
+
 });
